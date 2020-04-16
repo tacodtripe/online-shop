@@ -10,12 +10,17 @@ a {
 
 body {
     font-family: Helvetica, sans-serif;
+    background-color: whitesmoke;
 }
 
 header {
     background-color: #D35266;
     color: white;
     padding: 1rem;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .flex {
@@ -47,6 +52,55 @@ header {
     justify-content: space-between;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.p-x {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.p-y {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.m-y {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pink {
+    color: #D35266;
+    text-transform: capitalize;
+}
+
+.gray {
+    color: #888888
+}
+
+.black {
+    color: #383838;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #888888;
+}
+
+.border-top {
+    border-top: 1px solid #888888;
+}
+
+.g-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .brand-logo {
     font-size: 1.9rem;
     padding: 0 0.2em;
@@ -54,6 +108,7 @@ header {
 
 .top-nav-link-container {
     width: 50%;
+    min-width: 298px;
 }
 
 .top-nav-a {
@@ -67,14 +122,64 @@ header {
     text-decoration: none;
 }
 
-.active-a {
-    color: #D35266;
-}
-
-.active-a:hover,
-.active-a:focus {
+.pink:hover,
+.pink:focus {
     color: #D35266
 }
+
+.electronic-icons {
+    width: 6%;
+    height: 34px;
+    min-width: 48px;
+}
+
+.fa-desktop {
+    font-size: 2rem;
+    color: #888888;
+}
+
+.fa-tablet-alt {
+    font-size: 1.7rem;
+    left: 21px;
+    top: 5px;
+    background-color: whitesmoke;
+    color: #888888;
+}
+
+.fa-mobile-alt {
+    font-size: 1.5rem;
+    left: 38px;
+    top: 9px;
+    background-color: whitesmoke;
+    color: #888888;
+}
+
+.items-containter {
+    flex-wrap: wrap;
+}
+
+.item-thumbnail {
+    width: calc(100% / 2 - 10px);
+    border: solid 1px #888888;
+}
+
+.item-img {
+
+}
+
+.item-title {
+
+}
+
+.item-title:hover {
+
+}
+
+.item-title {
+
+}
+
+.item-location {text-transform: capitalize;}
 
 @media (max-width: 768px) {
     header {
