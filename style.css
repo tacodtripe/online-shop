@@ -17,7 +17,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #D35266;
+    background-color: #383838;
     color: white;
     padding: 1rem;
 }
@@ -107,6 +107,10 @@ header {
     justify-self: flex-end;
 }
 
+.header-container {
+    width: 100%;
+}
+
 .hot-ads {
     width: 90%;
     margin: 0 auto;
@@ -116,9 +120,13 @@ header {
     border: solid 1px #383838
 }
 
+.hot-ads-thumbnail:last-child {
+    display: none;
+}
+
 .hot-ads-controller-r {
-    right: -10%;
-    top: 50%;
+    right: 2.5%;
+    top: 32%;
     width: 30px;
     border-radius: 50%;
     height: 30px;
@@ -128,8 +136,8 @@ header {
 }
 
 .hot-ads-controller-l {
-    left: -10%;
-    top: 50%;
+    left: 2.5%;
+    top: 32%;
     width: 30px;
     border-radius: 50%;
     height: 30px;
@@ -141,8 +149,7 @@ header {
 .hot-ads-img {
     width: 50%;
     background-image: url(https://i.ebayimg.com/images/g/y~oAAOSwUN9ao0d4/s-l500.jpg);
-    background-size: cover;
-    min-height: 230px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-right: solid 1px #383838;
@@ -176,6 +183,32 @@ header {
     font-weight: 700;
 }
 
+.header-btn {
+    display: none;
+    text-transform: uppercase;
+}
+
+.hot-ads-button,
+.header-btn {
+    background-color: #D35266;
+    border: solid 0.5px #383838;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hot-ads-button:nth-child(1) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+.hot-ads-button:nth-child(2) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+
 .brand-logo {
     font-size: 1.9rem;
     padding: 0 0.2em;
@@ -198,7 +231,7 @@ header {
 }
 
 .electronic-icons {
-    width: 6%;
+    width: 4%;
     height: 34px;
     min-width: 48px;
 }
@@ -348,13 +381,87 @@ footer a:hover {
     font-size: 5rem;
 }
 
+.items-section-controller-r {
+    font-size: 0;
+}
+
+.items-section-controller-l {
+    font-size: 0;
+}
+
 @media (max-width: 768px) {
-    header {
-        background-color: #383838;
-        color: white;
-    }
+
 }
 
 @media (min-width: 768px) {
+    .header-container {
+        width: 70%;
+        margin: 0 auto;
+    }
 
+    .header-btn {
+        display: initial;
+    }
+
+    .hot-ads-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hot-ads-thumbnail {
+        border: solid 1px #383838;
+        width: calc(100% / 2 - 10px);
+    }
+    
+    .hot-ads-thumbnail:last-child {
+        display: flex;
+    }
+
+    .footer-container {
+        flex-direction: row!important;
+    }
+
+    .item-thumbnail {
+        width: calc(100% / 4 - 10px);
+    }
+
+    .item-thumbnail:nth-child(1),
+    .item-thumbnail:nth-child(2) {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 40%;
+        order: 1;
+    }
+
+    .footer-links-container {
+        width: 60%;
+        order: 2;
+    }
+
+    .items-section-controller-r {
+        font-size: 2rem;
+        right: -4.4%;
+        top: 34%;
+        cursor: pointer;
+        height: 190px;
+        width: 30px;
+        border: solid 0.5px #3838380c;
+    }
+    
+    .items-section-controller-l {
+        font-size: 2rem;
+        left: -4.4%;
+        top: 34%;
+        cursor: pointer;
+        height: 190px;
+        width: 30px;
+        border: solid 0.5px #38383852;
+    }
+
+    .items-section-controller-r:hover,
+    .items-section-controller-l:hover {
+        border: solid 0.5px #383838c2;
+    }
 }
