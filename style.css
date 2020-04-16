@@ -145,10 +145,11 @@ header {
     min-height: 230px;
     background-repeat: no-repeat;
     background-position: center;
+    border-right: solid 1px #383838;
 }
 
 .hot-ads-img-controler-r {
-    right: 0;
+    right: 5px;
     bottom: 0;
     background-color: #383838;
     color: #D35266;
@@ -157,7 +158,7 @@ header {
 }
 
 .hot-ads-img-controler-l {
-    right: 18px;
+    right: 23px;
     bottom: 0px;
     background-color: #383838;
     color: #D35266;
@@ -293,7 +294,7 @@ header {
 
 .item-tooltip-text {
     visibility: hidden;
-    width: 90%;
+    width: 150px;
     background-color: white;
     color: #383838;
     text-align: center;
@@ -319,6 +320,11 @@ header {
 .item-tooltip-option:hover a {
     background-color: #383838;
     color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #383838;
 }
 
 .footer-logo {
