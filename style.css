@@ -14,6 +14,9 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: #D35266;
     color: white;
     padding: 1rem;
@@ -109,6 +112,10 @@ header {
     margin: 0 auto;
 }
 
+.hot-ads-thumbnail {
+    border: solid 1px #383838
+}
+
 .hot-ads-controller-r {
     right: -10%;
     top: 50%;
@@ -196,7 +203,9 @@ header {
 }
 
 .fa-desktop,
-.fa-plus-square {
+.fa-plus-square,
+.fa-tshirt,
+.fa-car {
     font-size: 2rem;
     color: #888888;
 }
@@ -217,7 +226,7 @@ header {
     color: #888888;
 }
 
-.items-containter {
+.items-container {
     flex-wrap: wrap;
 }
 
@@ -260,7 +269,7 @@ header {
 
 .item-title-tooltip-text {
     visibility: hidden;
-    width: 175px;
+    width: 90%;
     background-color: white;
     color: #383838;
     text-align: center;
@@ -284,7 +293,7 @@ header {
 
 .item-tooltip-text {
     visibility: hidden;
-    width: 175px;
+    width: 90%;
     background-color: white;
     color: #383838;
     text-align: center;
@@ -310,6 +319,27 @@ header {
 .item-tooltip-option:hover a {
     background-color: #383838;
     color: white;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.footer-list {
+    list-style: none;
+    width: 50%;
+}
+
+.footer-list li {
+    text-align: center;
+}
+
+.categories-header {
+    border-bottom: solid 1px #D35266;
+}
+
+.footer-brand-logo {
+    font-size: 5rem;
 }
 
 @media (max-width: 768px) {
