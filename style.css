@@ -104,6 +104,70 @@ header {
     justify-self: flex-end;
 }
 
+.hot-ads {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hot-ads-controller-r {
+    right: -10%;
+    top: 50%;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px!important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hot-ads-controller-l {
+    left: -10%;
+    top: 50%;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    line-height: 30px!important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hot-ads-img {
+    width: 50%;
+    background-image: url(https://i.ebayimg.com/images/g/y~oAAOSwUN9ao0d4/s-l500.jpg);
+    background-size: cover;
+    min-height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hot-ads-img-controler-r {
+    right: 0;
+    bottom: 0;
+    background-color: #383838;
+    color: #D35266;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.hot-ads-img-controler-l {
+    right: 18px;
+    bottom: 0px;
+    background-color: #383838;
+    color: #D35266;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.hot-ads-text-container {
+    width: 50%;
+    min-height: 230px;
+}
+
+.hot-ads-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .brand-logo {
     font-size: 1.9rem;
     padding: 0 0.2em;
@@ -167,16 +231,21 @@ header {
     height: 195px;
 }
 
-.item-title-container {overflow: hidden;text-overflow: ellipsis;}
+.item-title-container {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-.item-title-container:hover {overflow: visible;}
+.item-title-container:hover {
+    overflow: visible;
+}
 
 .item-title-container:hover .item-title-tooltip-text {
     visibility: visible;
 }
 
 .item-title-container:hover .item-title {
-    visibility: hidden;
+    display: none;
 }
 
 .item-title {
