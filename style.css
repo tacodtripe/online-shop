@@ -107,6 +107,74 @@ header {
     justify-self: flex-end;
 }
 
+.search-section {
+    display: none;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    background-color: #D35266;
+}
+
+.search-btn {
+    margin: 0 25px;
+    padding: 9px;
+    background-color: black;
+    border: solid 1px #888888;
+    color: white;
+    width: 100px;
+}
+
+.main-brand-logo {
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main-brand-name {
+    text-align: justify;
+    width: 50%;
+    color: white;
+}
+
+.input-container {
+    width: 70%;
+    margin: 20px auto;
+    height: 50px;
+}
+
+.dropdown-container {
+    width: 20%;
+    height: 37px;
+    border: solid 1px black;
+    border-right: 0;
+}
+
+.dropdown-content {
+    display: none;
+    list-style: none;
+}
+
+.dropdown-content li {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+    width: 100%;
+}
+
+.search-input {
+    width: 35%;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.dropdown-trigger {
+    text-align: center;
+    height: 100%;
+}
+
 .header-container {
     width: 100%;
 }
@@ -126,7 +194,7 @@ header {
 
 .hot-ads-controller-r {
     right: 2.5%;
-    top: 32%;
+    top: 83%;
     width: 30px;
     border-radius: 50%;
     height: 30px;
@@ -137,7 +205,7 @@ header {
 
 .hot-ads-controller-l {
     left: 2.5%;
-    top: 32%;
+    top: 83%;
     width: 30px;
     border-radius: 50%;
     height: 30px;
@@ -390,10 +458,16 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-
+    .hot-ads-button {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
+    .search-section {
+        display: flex;
+    }
+
     .header-container {
         width: 70%;
         margin: 0 auto;
