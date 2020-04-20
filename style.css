@@ -136,7 +136,7 @@ header {
 }
 
 .input-container {
-    width: 70%;
+    width: 78%;
     margin: 20px auto;
     height: 50px;
 }
@@ -184,17 +184,18 @@ header {
     margin: 0 auto;
 }
 
+.hot-ads h4 {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .hot-ads-thumbnail {
     border: solid 1px #383838
 }
 
-.hot-ads-thumbnail:last-child {
-    display: none;
-}
-
 .hot-ads-controller-r {
-    right: 2.5%;
-    top: 83%;
+    right: 10.5%;
+    top: 35rem;
     width: 30px;
     border-radius: 50%;
     height: 30px;
@@ -204,8 +205,8 @@ header {
 }
 
 .hot-ads-controller-l {
-    left: 2.5%;
-    top: 83%;
+    left: 10.5%;
+    top: 35rem;
     width: 30px;
     border-radius: 50%;
     height: 30px;
@@ -469,12 +470,15 @@ footer a:hover {
     }
 
     .header-container {
-        width: 70%;
+        width: 77%;
         margin: 0 auto;
     }
 
     .header-btn {
         display: initial;
+        padding: 0;
+        width: 120px;
+        height: 33px;
     }
 
     .hot-ads-container{
@@ -484,11 +488,8 @@ footer a:hover {
 
     .hot-ads-thumbnail {
         border: solid 1px #383838;
-        width: calc(100% / 2 - 10px);
-    }
-    
-    .hot-ads-thumbnail:last-child {
-        display: flex;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .footer-container {
