@@ -1,11 +1,13 @@
-# The News Week clone page
+# Online shop draft
 
-> Seventh project in the HTML/CSS module.
+> Capstone project in the HTML/CSS module.
 
-This is a microverse HTML/CSS project, I was required to exercise the use of the Bootstrap framework.
-I managed to create a clone of The News Week page - Link to the original page is right here [News Week](https://www.newsweek.com/).
+This is a microverse HTML/CSS project, I was required to exercise the use of the flex-box display.
+I managed to create an online shop draft.
 
-Find the live version of this project here [live version](https://raw.githack.com/tacodtripe/using-bootstrap/features/index.html)
+Find the live version of this project here: 
+[Home](https://raw.githack.com/tacodtripe/online-shop/features/index.html)
+[Search page](https://raw.githack.com/tacodtripe/online-shop/features/search.html)
 
 ## Built With
 
@@ -29,4 +31,9 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project, enjoy!
 
-![screenshot](img/app_screenshot.jpg)
+![screenshot](home-screenshot.png)
+![screenshot](search-screenshot.png)
+
+## License
+
+Mohammed Awad with their design guide at https://www.behance.net/gallery/24796463/ZATTIX
