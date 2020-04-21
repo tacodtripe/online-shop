@@ -31,7 +31,8 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project, enjoy!
 
-![screenshot](img/app_screenshot.jpg)
+![screenshot](home-screenshot.png)
+![screenshot](search-screenshot.png)
 
 ## License
 
