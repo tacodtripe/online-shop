@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,9 +58,9 @@
             </div>
             <input class="search-input" type="text" placeholder="What do you search for?">
             <input class="search-input" type="text" placeholder="Where?">
-            <button class="search-btn">
+            <a class="gray search-btn" href="search.html">
                 Search
-            </button>
+            </a>
         </div>
     </div>
     <main class="g-container flex items-container">
@@ -70,15 +70,15 @@
             </p>
             <form class="search-form-container" action="#">
                 <div class="p-y">
-                    <input type="checkbox" name="electronics" value="Electronics">
+                    <input type="checkbox" name="electronics" id="electronics" value="Electronics">
                     <label for="electronics">Electronics</label>
                 </div>
                 <div class="p-y">
-                    <input type="checkbox" name="fashion" value="Fashion">
+                    <input type="checkbox" name="fashion" id="fashion" value="Fashion">
                     <label for="fashion">Fashion</label>
                 </div>
                 <div class="p-y">
-                    <input type="checkbox" name="vehicles" value="Vehicles">
+                    <input type="checkbox" name="vehicles" id="vehicles" value="Vehicles">
                     <label for="vehicles">Vehicles</label>
                 </div>
             </form>
@@ -87,11 +87,11 @@
             </p>
             <form action="#">
                 <div class="p-y">
-                    <input type="checkbox" name="new" value="New">
+                    <input type="checkbox" name="new" id="new" value="New">
                     <label for="new">New</label>
                 </div>
                 <div class="p-y">
-                    <input type="checkbox" name="used" value="Used">
+                    <input type="checkbox" name="used" id="used" value="Used">
                     <label for="used">Used</label>
                 </div>
             </form>
@@ -100,19 +100,19 @@
             </p>
             <form action="#">
                 <div class="p-y">
-                    <input type="checkbox" name="price-1" value="10-100">
+                    <input type="checkbox" name="price-1" id="price-1" value="10-100">
                     <label for="price-1">10$ - 100$</label>
                 </div>
                 <div class="p-y">
-                    <input type="checkbox" name="price-2" value="100-500">
+                    <input type="checkbox" name="price-2" id="price-2" value="100-500">
                     <label for="price-2">100$ - 500$</label>
                 </div>
                 <div class="p-y">
-                    <input type="checkbox" name="price-3" value="500-1000">
+                    <input type="checkbox" name="price-3" id="price-3" value="500-1000">
                     <label for="price-3">500$ - 1000$</label>
                 </div>
                 <div class="p-y">
-                    <input type="checkbox" name="price-4" value="1000+">
+                    <input type="checkbox" name="price-4" id="price-4" value="1000+">
                     <label for="price-4">+1000$</label>
                 </div>
             </form>

@@ -121,6 +121,7 @@ header {
   border: solid 1px #888;
   color: white;
   width: 100px;
+  text-align: center;
 }
 
 .main-brand-logo {
