@@ -689,8 +689,9 @@ footer a:hover,
   }
 
   .search-checkbox-title:nth-child(1) {
-    padding-top: 0;
+    padding-top: 0px;
     margin-top: 0;
+    padding-bottom: 0.5rem;
   }
 
   .search-2c p {
