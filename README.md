@@ -7,7 +7,6 @@ I managed to create an online shop draft.
 
 Find the live version of this project here: 
 [Home](https://raw.githack.com/tacodtripe/online-shop/features/index.html)
-[Search page](https://raw.githack.com/tacodtripe/online-shop/features/search.html)
 
 ## Built With
 
