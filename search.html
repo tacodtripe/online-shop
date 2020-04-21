@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1adbc6859f.js" crossorigin="anonymous"></script>
+    <title>Online Shop</title>
+</head>
+<body>
+    <header>
+        <div class="header-container flex space-between align-center">
+            <div class="flex align-center pink">
+                <i class="fas fa-audio-description px-1 brand-logo"></i>
+                <a href="#" class="brand-name pink">
+                    Shop Name
+                </a>
+            </div>
+            <nav class="top-nav-link-container flex space-between">
+                <a class="pink" href="index.html">
+                    <i class="fas fa-home"></i>
+                    Home
+                </a>
+                <a class="gray top-nav-a" href="#">
+                    <i class="fas fa-th-list"></i>
+                    Collections
+                </a>
+                <a class="gray top-nav-a" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    Purchase List
+                </a>
+            </nav>
+            <button class="header-btn">
+                post and ad
+            </button>
+        </div>
+    </header>
+    <div class="flex column justify-center align-center search-section">
+        <div class="flex column s-header-title">
+            <p class="px-1 s-main-brand-logo">
+                Shop Name
+            </p>
+            <a href="#" class="s-main-brand-name">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam nulla facilis obcaecati, nisi mollitia!
+            </a>
+        </div>
+        <div class="flex input-container p-y align-center justify-center">
+            <div class="relative dropdown-container">
+                <p class="black dropdown-trigger bg-white flex align-center justify-center">
+                    <i class="fas fa-caret-down p-x "></i>
+                    All departments
+                </p>
+                <ul class="absolute dropdown-content bg-white">
+                    <li><a class="black" href="#">Electronics</a></li>
+                    <li><a class="black" href="#">Fashion</a></li>
+                    <li><a class="black" href="#">Vehicles</a></li>
+                </ul>
+            </div>
+            <input class="search-input" type="text" placeholder="What do you search for?">
+            <input class="search-input" type="text" placeholder="Where?">
+            <button class="search-btn">
+                Search
+            </button>
+        </div>
+    </div>
+    <main class="g-container flex items-container">
+        <div class="flex column searc-1c">
+            <p>
+                Type
+            </p>
+            <form action="#">
+                <input type="checkbox" name="electronics" value="Electronics">
+                <label for="electronics">Electronics</label><br>
+                <input type="checkbox" name="fashion" value="Fashion">
+                <label for="fashion">Fashion</label><br>
+                <input type="checkbox" name="vehicles" value="Vehicles">
+                <label for="vehicles">Vehicles</label><br>
+            </form>
+            <p>
+                State
+            </p>
+            <form action="#">
+                <input type="checkbox" name="new" value="New">
+                <label for="new">New</label><br>
+                <input type="checkbox" name="used" value="Used">
+                <label for="used">Used</label><br>
+            </form>
+            <p>
+                Price Range
+            </p>
+            <form action="#">
+                <input type="checkbox" name="price-1" value="10-100">
+                <label for="price-1">10$ - 100$</label><br>
+                <input type="checkbox" name="price-2" value="100-500">
+                <label for="price-2">100$ - 500$</label><br>
+                <input type="checkbox" name="price-3" value="500-1000">
+                <label for="price-3">500$ - 1000$</label><br>
+                <input type="checkbox" name="price-4" value="1000+">
+                <label for="price-4">+1000$</label><br>
+            </form>
+        </div>
+        <div class="flex column search-2c">
+            <p class="gray p-y">
+                102 Results for "<span class="black">Whatever you wrote</span>" Search at <span class="black">Somewhere</span> in Category <span class="black">Electronics</span>
+            </p>
+            <div class="search-thumbnail flex p-y">
+                <div class="search-item-img relative p-x">
+                    <i class="fas fa-chevron-right absolute hot-ads-img-controler-r"></i>
+                    <i class="fas fa-chevron-left absolute hot-ads-img-controler-l"></i>
+                </div>
+                <div class="search-item-text-container p-x flex column space-between">
+                    <div class="flex space-between p-y align-center justify-self-end">
+                        <div>
+                            <a class="black search-item-title" href="#">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, architecto?
+                            </a>
+                            <p class="pink search-item-state">
+                                Lorem, ipsum dolor.
+                            </p>
+                        </div>
+                        <div class="item-tooltip relative ">
+                            <i class="far fa-plus-square"></i>
+                            <div class="absolute s-item-tooltip-text">
+                                <ul>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Add to Collection</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Send a Message</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">More Details</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gray search-item-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime ipsam obcaecati eaque soluta impedit ipsum quis facere ducimus, voluptas quibusdam labore explicabo mollitia modi, aliquid odio. Doloribus, suscipit est.
+                    </p>
+                    <p class="gray">
+                        <span class="black">Location:</span> Somewhere
+                    </p>
+                    <div class="flex space-between align-center">
+                        <p class="gray">
+                            20 nov, 2020
+                        </p>
+                        <button class="header-btn">
+                            $10
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-thumbnail flex p-y">
+                <div class="search-item-img relative p-x">
+                    <i class="fas fa-chevron-right absolute hot-ads-img-controler-r"></i>
+                    <i class="fas fa-chevron-left absolute hot-ads-img-controler-l"></i>
+                </div>
+                <div class="search-item-text-container p-x flex column space-between">
+                    <div class="flex space-between p-y align-center justify-self-end">
+                        <div>
+                            <a class="black search-item-title" href="#">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, architecto?
+                            </a>
+                            <p class="pink search-item-state">
+                                Lorem, ipsum dolor.
+                            </p>
+                        </div>
+                        <div class="item-tooltip relative ">
+                            <i class="far fa-plus-square"></i>
+                            <div class="absolute s-item-tooltip-text">
+                                <ul>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Add to Collection</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Send a Message</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">More Details</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gray search-item-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime ipsam obcaecati eaque soluta impedit ipsum quis facere ducimus, voluptas quibusdam labore explicabo mollitia modi, aliquid odio. Doloribus, suscipit est.
+                    </p>
+                    <p class="gray">
+                        <span class="black">Location:</span> Somewhere
+                    </p>
+                    <div class="flex space-between align-center">
+                        <p class="gray">
+                            20 nov, 2020
+                        </p>
+                        <button class="header-btn">
+                            $10
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-thumbnail flex p-y">
+                <div class="search-item-img relative p-x">
+                    <i class="fas fa-chevron-right absolute hot-ads-img-controler-r"></i>
+                    <i class="fas fa-chevron-left absolute hot-ads-img-controler-l"></i>
+                </div>
+                <div class="search-item-text-container p-x flex column space-between">
+                    <div class="flex space-between p-y align-center justify-self-end">
+                        <div>
+                            <a class="black search-item-title" href="#">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, architecto?
+                            </a>
+                            <p class="pink search-item-state">
+                                Lorem, ipsum dolor.
+                            </p>
+                        </div>
+                        <div class="item-tooltip relative ">
+                            <i class="far fa-plus-square"></i>
+                            <div class="absolute s-item-tooltip-text">
+                                <ul>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Add to Collection</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Send a Message</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">More Details</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gray search-item-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime ipsam obcaecati eaque soluta impedit ipsum quis facere ducimus, voluptas quibusdam labore explicabo mollitia modi, aliquid odio. Doloribus, suscipit est.
+                    </p>
+                    <p class="gray">
+                        <span class="black">Location:</span> Somewhere
+                    </p>
+                    <div class="flex space-between align-center">
+                        <p class="gray">
+                            20 nov, 2020
+                        </p>
+                        <button class="header-btn">
+                            $10
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-thumbnail flex p-y">
+                <div class="search-item-img relative p-x">
+                    <i class="fas fa-chevron-right absolute hot-ads-img-controler-r"></i>
+                    <i class="fas fa-chevron-left absolute hot-ads-img-controler-l"></i>
+                </div>
+                <div class="search-item-text-container p-x flex column space-between">
+                    <div class="flex space-between p-y align-center justify-self-end">
+                        <div>
+                            <a class="black search-item-title" href="#">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, architecto?
+                            </a>
+                            <p class="pink search-item-state">
+                                Lorem, ipsum dolor.
+                            </p>
+                        </div>
+                        <div class="item-tooltip relative ">
+                            <i class="far fa-plus-square"></i>
+                            <div class="absolute s-item-tooltip-text">
+                                <ul>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Add to Collection</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Send a Message</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">More Details</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gray search-item-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime ipsam obcaecati eaque soluta impedit ipsum quis facere ducimus, voluptas quibusdam labore explicabo mollitia modi, aliquid odio. Doloribus, suscipit est.
+                    </p>
+                    <p class="gray">
+                        <span class="black">Location:</span> Somewhere
+                    </p>
+                    <div class="flex space-between align-center">
+                        <p class="gray">
+                            20 nov, 2020
+                        </p>
+                        <button class="header-btn">
+                            $10
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-thumbnail flex p-y">
+                <div class="search-item-img relative p-x">
+                    <i class="fas fa-chevron-right absolute hot-ads-img-controler-r"></i>
+                    <i class="fas fa-chevron-left absolute hot-ads-img-controler-l"></i>
+                </div>
+                <div class="search-item-text-container p-x flex column space-between">
+                    <div class="flex space-between p-y align-center justify-self-end">
+                        <div>
+                            <a class="black search-item-title" href="#">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, architecto?
+                            </a>
+                            <p class="pink search-item-state">
+                                Lorem, ipsum dolor.
+                            </p>
+                        </div>
+                        <div class="item-tooltip relative ">
+                            <i class="far fa-plus-square"></i>
+                            <div class="absolute s-item-tooltip-text">
+                                <ul>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Add to Collection</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">Send a Message</a>
+                                    </li>
+                                    <li class="item-tooltip-option">
+                                        <a class="black" href="#">More Details</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="gray search-item-description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur maxime ipsam obcaecati eaque soluta impedit ipsum quis facere ducimus, voluptas quibusdam labore explicabo mollitia modi, aliquid odio. Doloribus, suscipit est.
+                    </p>
+                    <p class="gray">
+                        <span class="black">Location:</span> Somewhere
+                    </p>
+                    <div class="flex space-between align-center">
+                        <p class="gray">
+                            20 nov, 2020
+                        </p>
+                        <button class="header-btn">
+                            $10
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-white">
+        <div class="footer-container g-container flex column">
+            <div class="footer-links-container p-y">
+                <h4 class="pink p-y categories-header">
+                    Categories
+                </h4>
+                <div class="flex">
+                    <ul class="p-y footer-list">
+                        <li class="p-y ">
+                            <a href="#" class="gray">
+                                Electronics
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Vehicles
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Sports
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Fashion
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Pets
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="p-y footer-list">
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Electronics
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Vehicles
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Sports
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Fashion
+                            </a>
+                        </li>
+                        <li class="p-y">
+                            <a href="#" class="gray">
+                                Pets
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex column align-center p-y footer-logo">
+                <i class="fas fa-audio-description p-y footer-brand-logo pink"></i>
+                <p class="gray p-y">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident exercitationem aliquid illo itaque odio quis. Necessitatibus nihil mollitia saepe?
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
