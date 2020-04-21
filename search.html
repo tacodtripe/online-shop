@@ -51,9 +51,9 @@
                     All departments
                 </p>
                 <ul class="absolute dropdown-content bg-white">
-                    <li><a class="black" href="#">Electronics</a></li>
-                    <li><a class="black" href="#">Fashion</a></li>
-                    <li><a class="black" href="#">Vehicles</a></li>
+                    <li class="item-tooltip-option"><a class="black" href="#">Electronics</a></li>
+                    <li class="item-tooltip-option"><a class="black" href="#">Fashion</a></li>
+                    <li class="item-tooltip-option"><a class="black" href="#">Vehicles</a></li>
                 </ul>
             </div>
             <input class="search-input" type="text" placeholder="What do you search for?">
@@ -65,42 +65,60 @@
     </div>
     <main class="g-container flex items-container">
         <div class="flex column searc-1c">
-            <p>
+            <p class="search-checkbox-title">
                 Type
             </p>
-            <form action="#">
-                <input type="checkbox" name="electronics" value="Electronics">
-                <label for="electronics">Electronics</label><br>
-                <input type="checkbox" name="fashion" value="Fashion">
-                <label for="fashion">Fashion</label><br>
-                <input type="checkbox" name="vehicles" value="Vehicles">
-                <label for="vehicles">Vehicles</label><br>
+            <form class="search-form-container" action="#">
+                <div class="p-y">
+                    <input type="checkbox" name="electronics" value="Electronics">
+                    <label for="electronics">Electronics</label>
+                </div>
+                <div class="p-y">
+                    <input type="checkbox" name="fashion" value="Fashion">
+                    <label for="fashion">Fashion</label>
+                </div>
+                <div class="p-y">
+                    <input type="checkbox" name="vehicles" value="Vehicles">
+                    <label for="vehicles">Vehicles</label>
+                </div>
             </form>
-            <p>
+            <p class="search-checkbox-title">
                 State
             </p>
             <form action="#">
-                <input type="checkbox" name="new" value="New">
-                <label for="new">New</label><br>
-                <input type="checkbox" name="used" value="Used">
-                <label for="used">Used</label><br>
+                <div class="p-y">
+                    <input type="checkbox" name="new" value="New">
+                    <label for="new">New</label>
+                </div>
+                <div class="p-y">
+                    <input type="checkbox" name="used" value="Used">
+                    <label for="used">Used</label>
+                </div>
             </form>
-            <p>
+            <p class="search-checkbox-title">
                 Price Range
             </p>
             <form action="#">
-                <input type="checkbox" name="price-1" value="10-100">
-                <label for="price-1">10$ - 100$</label><br>
-                <input type="checkbox" name="price-2" value="100-500">
-                <label for="price-2">100$ - 500$</label><br>
-                <input type="checkbox" name="price-3" value="500-1000">
-                <label for="price-3">500$ - 1000$</label><br>
-                <input type="checkbox" name="price-4" value="1000+">
-                <label for="price-4">+1000$</label><br>
+                <div class="p-y">
+                    <input type="checkbox" name="price-1" value="10-100">
+                    <label for="price-1">10$ - 100$</label>
+                </div>
+                <div class="p-y">
+                    <input type="checkbox" name="price-2" value="100-500">
+                    <label for="price-2">100$ - 500$</label>
+                </div>
+                <div class="p-y">
+                    <input type="checkbox" name="price-3" value="500-1000">
+                    <label for="price-3">500$ - 1000$</label>
+                </div>
+                <div class="p-y">
+                    <input type="checkbox" name="price-4" value="1000+">
+                    <label for="price-4">+1000$</label>
+                </div>
             </form>
         </div>
         <div class="flex column search-2c">
-            <p class="gray p-y">
+            <p class="gray p-y p-x search-results">
                 102 Results for "<span class="black">Whatever you wrote</span>" Search at <span class="black">Somewhere</span> in Category <span class="black">Electronics</span>
             </p>
             <div class="search-thumbnail flex p-y">
@@ -342,6 +360,35 @@
                         </button>
                     </div>
                 </div>
+            </div>
+            <div class="p-y">
+                <ul class="flex space-between page-number-container">
+                    <li>
+                        <a href="#">
+                            1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            3
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            4
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            5
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
