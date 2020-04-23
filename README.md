@@ -6,7 +6,7 @@ This is a microverse HTML/CSS project, I was required to exercise the use of the
 I managed to create an online shop draft.
 
 Find the live version of this project here: 
-[Home]https://raw.githack.com/tacodtripe/online-shop/master/index.html)
+[Home](https://raw.githack.com/tacodtripe/online-shop/master/index.html)
 
 ## Built With
 
